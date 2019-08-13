@@ -3,27 +3,35 @@
     <head>
         <title>About Me | Tara James</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="./assets/styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       
     </head>
 
-    <body class="bg">
-        <!-- navigation bar -->
-        <nav class="navbar navbar-light bg-light fixed-top">
-                    <a class="navbar-name" href="#">Tara James</a>
-        
-                    <ul class="nav justify-content-end">
-                            <li class="nav-item">
-                              <a class="nav-link active" href="index.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="portfolio.html">Portfolio</a>
-                            </li>
-                        
-                          </ul>
-        
-        </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <a class="navbar-brand" href="index.html" id="logo">Tara James</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">About</a>
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+          </nav>
+          <!-- End of navbar -->
 
 
 
@@ -37,31 +45,39 @@
                     
             <!-- About Me content -->
             <div class="form-container">
-                    <h2>About Me</h2>
+                <div id="aboutMeCont">
+                    <h1 class="block-header">About Me</h1>
                     <p>I am a lawyer that is learning to code!</p>
                     </ul>
                         <li><a href="https://github.com/tjames02">My GitHub Profile</a></li>
                         <li><a href="https://www.linkedin.com/in/tara-james-66544a40/">My LinkedIn Profile</a></li>
                         <li><a href="#">My Resume</a></li>
-                </ul>
+                    </ul>
                      <br>   
                     <p>To see some of my recent projects, please take a look at my portfolio page.</p>
-
-  
+                </div>
+ 
             </div>
                 </div>
             </div>
-            <!-- footer -->
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="footer">
-                        <p>Copywright&copy;<p>
-
-                    </div>
-                </div>
-            </div>
+        <!-- Start of footer -->
+        <footer class="footer">
+            <div class="two-toned-footer-color"></div>
+            <p class="text-muted text-muted-footer text-center">
+             &copy; Copyright 2018 Tara James
+            </p>
+        </footer>
+      <!-- End of footer -->
         </div>
         
         </body>
     </body>
+    <style>
+        #aboutMeCont {
+            
+            width: 75%;
+            margin: auto;
+            margin-top: 50px; 
+        }
+    </style>
 </html>
